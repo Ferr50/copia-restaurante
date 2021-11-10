@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #F9D095;
+}
+
+h1 {
+    color: #68381A;
+    font: normal normal bold 30px/1.4em Overlock,sans-serif;
+    position: absolute;
+    top: 135px;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font: normal normal bold 20px/1.4em MuseoSlabW01-100,serif;
+    position: absolute;
+    top: 190px;
+    color: #68381A;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bg-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(153,227,236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-logo {
+    height: 90px;
+    width: 81px;
+}
+
+.size-bot-logo {
+    position: absolute;
+    fill: white;
+    width: 400px;
+    top: 150px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-itens {
+    font: normal normal normal 15px/1.4em ProximaNW01-Reg,sans-serif;;
+    color: #68381A;
+    height: 39px;
+    width: 153px;
+    border: 4px solid #98E3EC;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.top-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    border: 8px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.mid-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300px;
+}
+
+.stars {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+}
+
+.star {
+    height: 37px;
+    width: 42px;
+    padding-inline: 20px;
+}
+
+.starline {
+    margin-top: 10px;
+    width: 450px;
+}
+
+.box {
+    height: 200px;
+    width: 190px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 73px;
+    width: 64px;
+}
+
+.font01 {
+    font: normal normal bold 28px/1.4em MuseoSlabW01-100,serif;
+    text-align: center;
+    color: #68381A;
+}
+
+.font02 {
+    font: normal normal normal 17px/1.4em ProximaNW01-Reg,sans-serif;
+    text-align: center;
+    color: #68381A;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    font: normal normal normal 13px/1.4em ProximaNW01-Reg,sans-serif;
+    color: rgb(148,106,78);
+}
